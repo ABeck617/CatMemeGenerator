@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="cat.css">
+    <title>My Page</title>
+</head>
+<body>
+    <h1>Cat Meme Generator</h1>
+ <!-- /* created a form for the meme generator */ -->
+    <form action="">
+        Meme Type: <input type="text" id="user_text" maxlength="70" oninput="update_text()"> <br>
+        Meme Type: <input type="file" id="user_picture" maxlength="70" onchange="update_image()">
+    </form>
+
+    <div id="meme_text">
+        Example text here
+    </div>
+
+    <div id="meme_picture">
+        <img src=""  height="500" width="600" >
+    </div>
+
+    <script src="cat.js"></script>
+</body>
+</html>
